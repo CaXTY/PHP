@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio_PHP_03</title>
+    <link rel="stylesheet" href="../src/css/style.css">
+    <link rel="shortcut icon" href="../src/img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <h1>Conversor de Moedas</h1>
+        <form action="coversao.php" method="get">
+            <label for="moeda"> Selecione a Moeda: </label>
+                <select name="moeda" id="idmoeda">
+                    <option value="dolar">Dolar</option>
+                    <option value="euro">Euro</option>
+                    <option value="libra">Libra</option>
+                </select>
+            <label for="din">Quantos R$ voce tem na carteira?</label>
+            <input type="number" name="din" id="iddin" step="0.01">
+            <input type="submit" value="converter">
+        </form>
+    </main>
+</body>
+</html>
