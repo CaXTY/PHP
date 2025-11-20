@@ -7,7 +7,7 @@
 ## Instalação 
 
 1. Clone o repositório ou faça o download dos arquivos.
-2. Abra o arquivo `index.html` no seu navegador.
+2. Abra o arquivo `index.html` ou `index.php` no seu navegador.
 3. Execute o programa, como por exemplo, XAMPP e habilite o serviço APACHE no seu computador.
 
 ---
